@@ -5,8 +5,6 @@ import './style.css';
 
 // Create a react component
 const App = () => {
-    const buttonText = {text: 'Click Me!'};
-    const labelText = 'Enter name:';
 
     return (
         <div>
@@ -35,12 +33,6 @@ const App = () => {
                             </ul>
                         </li>
                     </ol>
-            </div>
-            <div>
-                <h3>Testing how to call variables in React</h3>
-                <label className="label" htmlFor="name">{labelText}</label>
-                <input id="name" type="text"/>
-                <button style={{backgroundColor: 'blue', color: 'white'}}>{buttonText.text}</button>
             </div>
         </div>
     );
