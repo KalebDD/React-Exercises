@@ -1,19 +1,22 @@
+// Import the React and the ReactDOM libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SeasonDisplay from "./SeasonDisplay";
 
+// Create a react component
+const App = () => {
+    const buttonText = {text: 'Click Me!'};
+    const labelText = 'Enter name:';
 
-class App extends React.Component {
-    render() {
-        window.navigator.geolocation.getCurrentPosition(
-            (position) => console.log(position),
-            (err) => console.log(err)
-        );
-        return <div>Latitude: </div>
-    }
-}
-
+    return (
+        <div className="test">
+            <label className="label" htmlFor="name">{labelText}</label>
+            <input id="name" type="text" />
+            <button style={{backgroundColor: 'blue', color: 'white'}}>{buttonText.text}</button>
+        </div>
+    );
+};
+// Take the react component and show it on the screen
 ReactDOM.render(
-    <App/>,
+    <App />,
     document.querySelector('#root')
 );
