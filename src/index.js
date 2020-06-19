@@ -11,6 +11,7 @@ const App = () => {
             <div className="container">
                 <h2>Learning React Repo Layout</h2>
                 <p>Every branch is a different exercise or application</p>
+                <p>Notation at end of branch defines type (ex = exercise / app = application)</p>
                     <ol>
                         <li>
                             <span className='list-header'>jsx-ex</span>
@@ -27,7 +28,7 @@ const App = () => {
                         </ul>
                     </li>
                         <li>
-                            <span className='list-header'>seasons</span>
+                            <span className='list-header'>seasons-app</span>
                             <ul>
                                 <li>Small app that shows 2 weather options dependent on user's geolocation</li>
                             </ul>
