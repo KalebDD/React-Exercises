@@ -12,6 +12,7 @@ const App = () => {
                 <h2>Learning React Repo Layout</h2>
                 <p>Every branch is a different exercise or application</p>
                 <p>Notation at end of branch defines type (ex = exercise / app = application)</p>
+                <p>Renamed project - testing</p>
                     <ol>
                         <li>
                             <span className='list-header'>jsx-ex</span>
